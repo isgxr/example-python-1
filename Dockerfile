@@ -1,5 +1,5 @@
 # 基础镜像信息
-FROM registry.local/factory/pythonbase:1.0
+FROM docker-registry-idc01-sz.cloudtogo.cn/factory/pythonbase:1.0
 # 创建目录
 RUN mkdir -p /usr/local/ph
 # 拷贝文件
